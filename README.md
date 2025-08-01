@@ -1,5 +1,5 @@
 # Atmega8 Esp8226 Mqtt
-In this repository, I have uploaded code for communication between an Atmega8a microcontroller and an ESP8266 development module. The ESP8266 connects to an MQTT broker and listens to a topic that receives sensor values. When the sensor value exceeds 50, the ESP8266 sets GPIO5 (pin D1) to HIGH. When the Atmega port D3 (DDR3) is set to HIGH, the connected LED starts blinking every 5 seconds. If the sensor value drops below 50, the ESP8266 sets GPIO5 to LOW, and the LED connected to the Atmega8a's DDR2 port stops blinking.
+In this repository, I have uploaded code for communication between an Atmega8a microcontroller and an ESP8266 development module. The ESP8266 connects to an MQTT broker and listens to a topic for ecample receives sensor values. When the sensor value exceeds 50, the ESP8266 sets GPIO5 (pin D1) to HIGH. When the Atmega port D3 (DDR3) is set to HIGH, the connected LED starts blinking every 5 seconds. If the sensor value drops below 50, the ESP8266 sets GPIO5 to LOW, and the LED connected to the Atmega8a's DDR2 port stops blinking.
 
 <img width="357" height="253" alt="Screenshot (579)" src="https://github.com/user-attachments/assets/016ef361-c4e9-4018-a4ee-abcc380e90ef" />
 
